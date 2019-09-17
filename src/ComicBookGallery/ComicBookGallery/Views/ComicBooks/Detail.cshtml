@@ -1,5 +1,10 @@
 ﻿@model ComicBookGallery.Models.ComicBook
 
+@{
+    ViewBag.Title = Model.DisplayText;
+    ViewBag.ShowBackBar = true;
+}
+
 <h2>@Model.DisplayText</h2>
 
 <div class="row">
