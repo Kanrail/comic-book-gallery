@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ComicBookGalleryModel.Models
 {
-    class Artist
+    public class Artist
     {
         public Artist()
         {
